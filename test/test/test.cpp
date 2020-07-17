@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 
+
     cout << "Hello World!\n";
 	cout << "Hello World!\n";
 	cout << "Hello World!\n";
@@ -13,6 +14,12 @@ int main()
     cout << "어찌되는교"<<endl;
     cout << "어찌되는교" << endl;
 
+
+
+    std::cout << "Hello World!\n";
+    std::cout << "Dfdfdfd\n";
+    std::cout << "Dfqwevqweqwd\n";
+    std::cout << "Dfqwevasdasdasqweqwd\n";ds
 
 }
 
