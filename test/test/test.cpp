@@ -5,7 +5,6 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
- 126564156
+    아 ㅋㅋ
 }
 
