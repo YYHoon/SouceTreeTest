@@ -2,10 +2,23 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
+
+
+    cout << "Hello World!\n";
+	cout << "Hello World!\n";
+	cout << "Hello World!\n";
+
+    cout << "어찌되는교" << endl;
+
+
     std::cout << "Hello World!\n";
- 126564156
+
+    std::cout << "Dfqwevqweqwd\n";
+    std::cout << "Dfqwevasdasdasqweqwd\n";ds
+
+
 }
 
