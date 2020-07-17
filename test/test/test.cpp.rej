@@ -1,0 +1,13 @@
+diff a/test/test/test.cpp b/test/test/test.cpp	(rejected hunks)
+@@ -5,9 +5,8 @@
+ using namespace std;
+ int main()
+ {
+-    cout << "Hello World!\n";
+-	cout << "Hello World!\n";
+-	cout << "Hello World!\n";
++    cout << "어찌되는교"<<endl;
++	
+ 
+ }
+ 

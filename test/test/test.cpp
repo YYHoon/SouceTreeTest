@@ -5,8 +5,28 @@
 using namespace std;
 int main()
 {
+<<<<<<< HEAD
 	"다른거 만듬"
+=======
 
+
+
+    cout << "Hello World!\n";
+	cout << "Hello World!\n";
+	cout << "Hello World!\n";
+
+    cout << "어찌되는교" << endl;
+>>>>>>> origin/잭스
+
+
+    std::cout << "Hello World!\n";
+
+    std::cout << "Dfqwevqweqwd\n";
+    std::cout << "Dfqwevasdasdasqweqwd\n";ds
+
+
+
+    아 ㅋㅋ
 
 }
 
