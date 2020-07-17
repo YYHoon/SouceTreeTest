@@ -5,13 +5,7 @@
 using namespace std;
 int main()
 {
-
-    cout << "Hello World!\n";
-	cout << "Hello World!\n";
-	cout << "Hello World!\n";
-	
-    cout << "어찌되는교"<<endl;
-    cout << "어찌되는교" << endl;
+	"다른거 만듬"
 
 
 }
