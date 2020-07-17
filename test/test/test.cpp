@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     cout << "어찌되는교"<<endl;
-	
+    cout << "어찌되는교" << endl;
 
 }
 
