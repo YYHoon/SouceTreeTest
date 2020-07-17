@@ -5,9 +5,14 @@
 using namespace std;
 int main()
 {
+
     cout << "Hello World!\n";
 	cout << "Hello World!\n";
 	cout << "Hello World!\n";
-	12312312
+	
+    cout << "어찌되는교"<<endl;
+    cout << "어찌되는교" << endl;
+
+
 }
 
