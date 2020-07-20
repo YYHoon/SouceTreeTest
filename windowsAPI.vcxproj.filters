@@ -46,6 +46,12 @@
     <Filter Include="2DGameFramework\effect">
       <UniqueIdentifier>{b3284ef1-2dfe-42bb-bb2d-937dfd3982d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="playGround\Player">
+      <UniqueIdentifier>{000ad0a4-c9ec-47df-bdc4-de2e18006ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Player\PlayerState">
+      <UniqueIdentifier>{1be3e885-f0f5-4faa-a005-4454755abb58}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
