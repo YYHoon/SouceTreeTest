@@ -47,5 +47,5 @@ void playGround::render()
 
 void playGround::imginit()
 {
-	
+	qweqnwe
 }
