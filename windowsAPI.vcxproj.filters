@@ -31,6 +31,9 @@
     <Filter Include="2DGameFramework\Utils">
       <UniqueIdentifier>{6649f313-dbf4-4ec9-afff-24f47b1a709e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="playGround\Bullets">
+      <UniqueIdentifier>{0cdf7837-5b4b-4626-83fc-554acbcd0e12}</UniqueIdentifier>
+    </Filter>
     <Filter Include="2DGameFramework\progressBar">
       <UniqueIdentifier>{2f09af2d-ecf1-47c1-8190-27c3eb4af701}</UniqueIdentifier>
     </Filter>
@@ -45,6 +48,15 @@
     </Filter>
     <Filter Include="2DGameFramework\effect">
       <UniqueIdentifier>{b3284ef1-2dfe-42bb-bb2d-937dfd3982d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\button">
+      <UniqueIdentifier>{16e4f4fe-25c7-48c6-86fa-b6ed0ef26f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\ghostNGoblinScene">
+      <UniqueIdentifier>{02a24952-1b4d-4759-8116-c01e7f9a336d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\loading">
+      <UniqueIdentifier>{d79947c9-7c0c-4c47-9bd5-f1dda485f906}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +81,9 @@
     <ClInclude Include="playGround.h">
       <Filter>playGround</Filter>
     </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
     <ClInclude Include="randomFunction.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -86,6 +101,9 @@
     </ClInclude>
     <ClInclude Include="imageManager.h">
       <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bullets.h">
+      <Filter>playGround\Bullets</Filter>
     </ClInclude>
     <ClInclude Include="progressBar.h">
       <Filter>2DGameFramework\progressBar</Filter>
@@ -114,17 +132,32 @@
     <ClInclude Include="sceneManager.h">
       <Filter>2DGameFramework\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="cameraManager.h">
+    <ClInclude Include="button.h">
+      <Filter>2DGameFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="ghostNGoblinScene.h">
+      <Filter>playGround\ghostNGoblinScene</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
       <Filter>2DGameFramework\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="renderer.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="knight.h">
+      <Filter>playGround\ghostNGoblinScene</Filter>
     </ClInclude>
-    <ClInclude Include="Transform.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="jump.h">
+      <Filter>playGround\ghostNGoblinScene</Filter>
     </ClInclude>
-    <ClInclude Include="singletonBase.h">
-      <Filter>2DGameFramework\SingletonBase</Filter>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroMenuScene.h">
+      <Filter>playGround\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>playGround\loading</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +188,9 @@
     <ClCompile Include="imageManager.cpp">
       <Filter>2DGameFramework\Manager</Filter>
     </ClCompile>
+    <ClCompile Include="bullets.cpp">
+      <Filter>playGround\Bullets</Filter>
+    </ClCompile>
     <ClCompile Include="progressBar.cpp">
       <Filter>2DGameFramework\progressBar</Filter>
     </ClCompile>
@@ -182,14 +218,29 @@
     <ClCompile Include="sceneManager.cpp">
       <Filter>2DGameFramework\Manager</Filter>
     </ClCompile>
-    <ClCompile Include="cameraManager.cpp">
+    <ClCompile Include="button.cpp">
+      <Filter>2DGameFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="ghostNGoblinScene.cpp">
+      <Filter>playGround\ghostNGoblinScene</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
       <Filter>2DGameFramework\Manager</Filter>
     </ClCompile>
-    <ClCompile Include="renderer.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="knight.cpp">
+      <Filter>playGround\ghostNGoblinScene</Filter>
     </ClCompile>
-    <ClCompile Include="Transform.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="jump.cpp">
+      <Filter>playGround\ghostNGoblinScene</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroMenuScene.cpp">
+      <Filter>playGround\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>playGround\loading</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

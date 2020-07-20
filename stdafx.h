@@ -14,6 +14,8 @@
 
 using namespace std;
 
+//using namespace cv;
+
 #include "commonMacroFunction.h"
 #include "randomFunction.h"
 #include "keyManager.h"
@@ -24,8 +26,10 @@ using namespace std;
 #include "effectManager.h"
 #include "soundManager.h"
 #include "sceneManager.h"
+#include "keyAniManager.h"
+#include "MovieManager.h"
 #include "txtData.h"
-#include "cameraManager.h"
+#include "iniDataManager.h"
 
 using namespace TTYONE_UTIL;
 
@@ -34,8 +38,8 @@ using namespace TTYONE_UTIL;
 
 
 // 여기서 프로그램에 필요한 추가 헤더를 참조합니다.
-#define WINNAME (LPCTSTR)(TEXT("YYH"))
-#define WINSTARTX	50
+#define WINNAME (LPCTSTR)(TEXT("뜨웨니 원~"))
+#define WINSTARTX	20
 #define WINSTARTY	50
 #define WINSIZEX	1600		
 #define WINSIZEY	900
@@ -48,8 +52,9 @@ using namespace TTYONE_UTIL;
 #define EFFECTMANAGER effectManager::getSingleton()
 #define SOUNDMANAGER soundManager::getSingleton()
 #define SCENEMANAGER sceneManager::getSingleton()
-#define CAMERAMANAGER cameraManager::getSingleton()
+#define KEYANIMANAGER keyAniManager::getSingleton()
 #define TXTDATA txtData::getSingleton()
+#define INIDATA iniDataManager::getSingleton()
 
 #define SAFE_DELETE(p)		{if(p) {delete(p); (p) = NULL;}}
 #define SAFE_RELEASE(p)		{if(p) {(p)->release(); (p) = NULL;}}

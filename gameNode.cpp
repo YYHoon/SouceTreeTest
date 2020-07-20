@@ -35,7 +35,10 @@ HRESULT gameNode::init(bool managerInit)
 		EFFECTMANAGER->init();
 		SOUNDMANAGER->init();
 		SCENEMANAGER->init();
+		KEYANIMANAGER->init();
 		TXTDATA->init();
+		INIDATA->init();
+
 	}
 
 
@@ -68,6 +71,12 @@ void gameNode::release()
 
 		SCENEMANAGER->release();
 		SCENEMANAGER->releaseSingleton();
+
+		KEYANIMANAGER->release();
+		KEYANIMANAGER->releaseSingleton();
+
+		INIDATA->release();
+		INIDATA->releaseSingleton();
 	}
 	
 	ReleaseDC(_hWnd, _hdc);
@@ -81,11 +90,6 @@ void gameNode::update()
 void gameNode::render()
 {
 
-}
-
-void gameNode::AddComponent(gameNode* gamenode)
-{
-	gameNodeList.push_back(gamenode);
 }
 
 LRESULT gameNode::MainProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)

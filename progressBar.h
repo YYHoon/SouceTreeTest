@@ -8,10 +8,9 @@ private:
 	float _x, _y;
 
 	float _width;	//100%
-	float _hitWidth;
+
 	image* _progressBarTop;
 	image* _progressBarBottom;
-	image* _progressBarMid;
 
 public:
 	progressBar();
