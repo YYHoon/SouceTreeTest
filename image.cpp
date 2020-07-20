@@ -9,7 +9,7 @@ image::image()
 	: _imageInfo(NULL),
 	_fileName(NULL),
 	_trans(false),
-	_transColor(RGB(0,0,0))
+	_transColor(RGB(0, 0, 0))
 {
 }
 
@@ -48,7 +48,7 @@ HRESULT image::init(int width, int height)
 	return S_OK;
 }
 
-HRESULT image::init(const char * fileName, int width, int height, BOOL trans, COLORREF transColor)
+HRESULT image::init(const char* fileName, int width, int height, BOOL trans, COLORREF transColor)
 {
 	//이미지 정보가 혹시나 남아있다면 해제해라
 	if (_imageInfo != NULL) release();
@@ -100,7 +100,7 @@ HRESULT image::init(const char * fileName, int width, int height, BOOL trans, CO
 	return S_OK;
 }
 
-HRESULT image::init(const char * fileName, float x, float y, int width, int height, int frameX, int frameY, BOOL trans, COLORREF transColor)
+HRESULT image::init(const char* fileName, float x, float y, int width, int height, int frameX, int frameY, BOOL trans, COLORREF transColor)
 {
 	//이미지 정보가 혹시나 남아있다면 해제해라
 	if (_imageInfo != NULL) release();
@@ -157,7 +157,7 @@ HRESULT image::init(const char * fileName, float x, float y, int width, int heig
 	return S_OK;
 }
 
-HRESULT image::init(const char * fileName, int width, int height, int frameX, int frameY, BOOL trans, COLORREF transColor)
+HRESULT image::init(const char* fileName, int width, int height, int frameX, int frameY, BOOL trans, COLORREF transColor)
 {
 	//이미지 정보가 혹시나 남아있다면 해제해라
 	if (_imageInfo != NULL) release();
@@ -296,7 +296,7 @@ void image::render(HDC hdc, int destX, int destY)
 			0, 0,					//복사될 X,Y(left, top)
 			SRCCOPY);				//변형없이 복사하겠다
 	}
-	
+
 
 }
 

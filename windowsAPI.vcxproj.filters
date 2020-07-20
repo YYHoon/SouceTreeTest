@@ -46,6 +46,9 @@
     <Filter Include="2DGameFramework\effect">
       <UniqueIdentifier>{b3284ef1-2dfe-42bb-bb2d-937dfd3982d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2DGameFramework\Event">
+      <UniqueIdentifier>{87a9292b-dfa9-4a59-9fc9-a199b2fa13b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -126,6 +129,15 @@
     <ClInclude Include="singletonBase.h">
       <Filter>2DGameFramework\SingletonBase</Filter>
     </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>2DGameFramework\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>2DGameFramework\Event</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -190,6 +202,15 @@
     </ClCompile>
     <ClCompile Include="Transform.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>2DGameFramework\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>2DGameFramework\Event</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
