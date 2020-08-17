@@ -49,6 +49,7 @@
     <Filter Include="2DGameFramework\effect">
       <UniqueIdentifier>{b3284ef1-2dfe-42bb-bb2d-937dfd3982d5}</UniqueIdentifier>
     </Filter>
+<<<<<<< HEAD
     <Filter Include="2DGameFramework\button">
       <UniqueIdentifier>{16e4f4fe-25c7-48c6-86fa-b6ed0ef26f68}</UniqueIdentifier>
     </Filter>
@@ -57,6 +58,13 @@
     </Filter>
     <Filter Include="playGround\loading">
       <UniqueIdentifier>{d79947c9-7c0c-4c47-9bd5-f1dda485f906}</UniqueIdentifier>
+=======
+    <Filter Include="playGround\Player">
+      <UniqueIdentifier>{000ad0a4-c9ec-47df-bdc4-de2e18006ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Player\PlayerState">
+      <UniqueIdentifier>{1be3e885-f0f5-4faa-a005-4454755abb58}</UniqueIdentifier>
+>>>>>>> origin/플레이어클래스
     </Filter>
   </ItemGroup>
   <ItemGroup>

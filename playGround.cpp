@@ -64,3 +64,11 @@ void playGround::render()
 	//=============================================
 	_backBuffer->render(getHDC(), 0, 0);
 }
+<<<<<<< HEAD
+=======
+
+void playGround::imginit()
+{
+
+}
+>>>>>>> origin/플레이어클래스
